@@ -17,7 +17,7 @@ time.sleep(10)
 sign_up= driver.find_element(By.XPATH, '//*[@id="mounter-react-root"]/div/div/div/div/div[2]/div/div/div/button').click()
 
 work_email = driver.find_element(By.XPATH, '//*[@id="email"]')
-work_email.send_keys('igustiayu010405@gmail.com') #gunakkan email yang berbeda setiap kali akan run
+work_email.send_keys('igustiayu010405@gmail.com') #gunakkan email yang berbeda setiap kali akan run 
 
 #klik tombol next
 #continue_email= driver.find_element(By.ID, 'mounter-react-root').click()
